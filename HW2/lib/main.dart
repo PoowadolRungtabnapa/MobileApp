@@ -31,15 +31,7 @@ class Home extends StatelessWidget {
           padding: const EdgeInsets.all(0.001),
           child: Column(
             children: [
-              Container(
-                margin: EdgeInsets.symmetric(vertical: 5, horizontal: 100),
-                height: 120,
-                width: 120,
-                padding: const EdgeInsets.all(1),
-                child: Image(image: AssetImage('assets/images/image1.jpg')),
-              ),
-              InputBox(Icon(IconData(0xe043, fontFamily: 'MaterialIcons')),
-                  "Username"),
+              Text("Balance"),
               InputBox(Icon(IconData(0xe22a, fontFamily: 'MaterialIcons')),
                   "Email address"),
               InputBox(Icon(IconData(0xeaa8, fontFamily: 'MaterialIcons')),
